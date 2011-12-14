@@ -1,0 +1,4 @@
+name = Group Customizations
+core = 6.x
+description = This module privdes ucstomizations to the groups.
+package = Customizations

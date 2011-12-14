@@ -1,0 +1,12 @@
+<?php
+
+function groups_customizations_uninstall() {
+  // Remove variables
+  variable_del('groups_customizations_force_login');
+  variable_del('groups_customizations_redirect_login_home');
+  variable_del('groups_customizations_manager_role');
+  variable_del('groups_customizations_group_prevent_open_voting');
+  variable_del('groups_customizations_group_prevent_open_commenting');
+  variable_del('groups_customizations_email_selective_group');
+  variable_del('groups_customizations_group_admin_edit_comments');
+}
